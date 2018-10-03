@@ -6,12 +6,12 @@ body {
 
 .grid-container {
   height: 100vh;
-  width: 100vw;
+  width: 50vw;
 
   /* your properties here */
     display: grid;
     grid-template-rows: [header-start] 1fr [header-end] 1fr 1fr 1fr;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr 3fr 2fr;
     grid-auto-rows: 45px;
     grid-auto-columns: 120px;
     grid-gap: 75px;
