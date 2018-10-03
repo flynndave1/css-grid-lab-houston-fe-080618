@@ -9,7 +9,7 @@ body {
   width: 50vw;
 
   /* your properties here */
-    display: grid;
+    display:  grid;
     grid-template-rows: [header-start] 1fr [header-end] 1fr 1fr 1fr;
 grid-template-columns: 1fr 3fr 2fr;
     grid-auto-rows: 45px;
